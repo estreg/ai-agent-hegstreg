@@ -1,5 +1,8 @@
 # ai-agent-hegstreg
 
+## Disclaimer
+"Remember, what is built here is a toy version of something like Cursor/Zed's Agentic Mode, or Claude Code. Even their tools aren't **perfectly secure**, so be careful what you give it access to, and ***don't* give this code away to anyone else to use!**" I highly recommend to take this course at [Boot.dev](https://www.boot.dev/) to be save. You can follow the instructions to build this tool even without a paid subscription. If you want the shortcut, than do it on your own risk.
+
 ## what the cli tool can do:
 
 1. accepting coding tasks
@@ -13,7 +16,7 @@
 ## prerequisites
 - Python 3.10+ installed
 
-For this project I will use Google's Gemini API. If you want to use your own little Toy Agent, you will have to go to [Gemini-API]("https://ai.google.dev/gemini-api/docs/pricing") and create an API Key, if you have none already. Here are the [docs](https://ai.google.dev/gemini-api/docs/api-key) if you get lost. Notice: I will use Gemini 2.0 Flash for this Project. It has a generous free tier.
+For this project I will use Google's Gemini API. If you want to use your own little Toy Agent, you will have to go to [Gemini-API](https://ai.google.dev/gemini-api/docs/pricing) and create an API Key, if you have none already. Here are the [docs](https://ai.google.dev/gemini-api/docs/api-key) if you get lost. Notice: I will use Gemini 2.0 Flash for this Project. It has a generous free tier.
 Don't forget to *.gitignore* your *.env* file with the following code:
 
 ```
@@ -24,7 +27,4 @@ Don't forget to *.gitignore* your *.env* file with the following code:
 
 ## usage
 ... under construction ...
-<!-- verbose flag -->
-
-## Disclaimer
-Remember, what is built here is a toy version of something like Cursor/Zed's Agentic Mode, or Claude Code. Even their tools aren't perfectly secure, so be careful what you give it access to, and don't give this code away to anyone else to use!
+<!-- verbose flag // token input/output count-->
