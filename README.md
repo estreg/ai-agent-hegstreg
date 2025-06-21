@@ -1,7 +1,7 @@
 # ai-agent-hegstreg
 
 ## Disclaimer
-"Remember, what is built here is a toy version of something like Cursor/Zed's Agentic Mode, or Claude Code. Even their tools aren't **perfectly secure**, so be careful what you give it access to, and ***don't* give this code away to anyone else to use!**" I highly recommend to take this course at [Boot.dev](https://www.boot.dev/) to be save. You can follow the instructions to build this tool even without a paid subscription. If you want the shortcut, than do it on your own risk.
+"Remember, what is built here is a toy version of something like Cursor/Zed's Agentic Mode, or Claude Code. Even their tools aren't **perfectly secure**, so be careful what you give it access to, and ***don't* give this code away to anyone else to use!**" "I highly recommend taking this course at [Boot.dev](https://www.boot.dev/) to be save. You can follow the instructions to build this tool even without a paid subscription. If you want the shortcut, do it at your own risk.
 
 ## what the cli tool can do:
 
