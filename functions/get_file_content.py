@@ -1,4 +1,5 @@
 import os
+from config import MAX_CHARS
 
 def get_file_content(working_directory, file_path):
     abs_working_dir = os.path.abspath(working_directory)
@@ -10,7 +11,6 @@ def get_file_content(working_directory, file_path):
     
     try:
         file_content_string = ""
-        MAX_CHARS = 10000
 
         with open(target_file, "r") as f:
             file_content_string =f.read(MAX_CHARS + 1)
