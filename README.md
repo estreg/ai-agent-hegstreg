@@ -47,7 +47,7 @@ Don't forget to *.gitignore* your *.env* file with the following code:
 - Install the requirements with:
 
 ```
-pip install -r requirements.txt
+    pip install -r requirements.txt
 ```
 
 
