@@ -25,6 +25,37 @@ Don't forget to *.gitignore* your *.env* file with the following code:
 }
 ```
 
+- You have to create a virtual environment at the top level of your (this) project directory. (Add the *venv* directory to your *.gitignore*, too.):
+
+```
+    python3 -m venv venv
+```
+
+- Activate the virtual environment. (Always make sure that it is activated when running the code):
+
+```
+    source venv/bin/activate
+```
+
+- Take a look at the *requirements.txt* (Here are the docs: [google-genai](https://pypi.org/project/google-genai/) and [python-dotenv](https://pypi.org/project/python-dotenv/)). It contains this:
+
+```
+    google-genai==1.12.1
+    python-dotenv==1.1.0
+```
+
+- Install the requirements with:
+
+```
+pip install -r requirements.txt
+```
+
+
+
 ## usage
 ... under construction ...
+- file_content
+- file_info
+- run_python
+- write_file
 <!-- verbose flag // token input/output count-->
