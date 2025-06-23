@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-from config import system_prompt
+from config import system_prompt, MAX_ITERS
 from call_functions import available_functions, call_function
 
 def main():
@@ -33,7 +33,11 @@ def main():
             parts=[types.Part(text=user_prompt)]),
     ]
     
-    for i in range(20):
+    for i in range(MAX_ITERS):
+        if i > MAX_ITERS:
+            print(f"Maximum iterations ({MAX_ITERS}) reached.")
+            sys.exit(1)
+        
         response = generate_content(client, messages, verbose)
         for candidate in response.candidates:
             messages.append(candidate.content)

@@ -54,11 +54,13 @@ Don't forget to *.gitignore* your *.env* file with the following code:
 
 ## usage
 ... under construction ...
+
+Functions the Agent can perform now:
 - file_content
 - file_info
 - run_python
 - write_file
-<!-- verbose flag // token input/output count
-        Usage: python main.py "your prompt here" [--verbose]'
-        Example: python main.py "Why is Sam the secret and only hero in lotr?"
--->
+
+Basic Usage:
+- 'python main.py "your prompt here" [--verbose]'
+- Example: python main.py "Why is Sam the secret and only hero in lotr?"
