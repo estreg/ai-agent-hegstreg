@@ -4,7 +4,7 @@ class Calculator:
             "+": lambda a, b: a + b,
             "-": lambda a, b: a - b,
             "*": lambda a, b: a * b,
-            "/": lambda a, b: a / b,
+            "/": lambda a, b: a / b if b != 0 else None,
         }
         self.precedence = {
             "+": 1,
@@ -51,9 +51,17 @@ class Calculator:
             return
 
         operator = operators.pop()
+
+        if operator not in self.operators:
+            return
+
         if len(values) < 2:
             raise ValueError(f"not enough operands for operator {operator}")
 
         b = values.pop()
         a = values.pop()
-        values.append(self.operators[operator](a, b))
+
+        result = self.operators[operator](a, b)
+        if result is None:
+            raise ValueError("division by zero")
+        values.append(result)

@@ -15,8 +15,8 @@ def main():
     
     if not args:
         print("AI Code Assistant")
-        print('\nUsage: python main.py "your prompt here" [--verbose]')
-        print('Example: python main.py "Why is Sam the secret and only hero in lotr?"')
+        print('\nUsage: python3 main.py "your prompt here" [--verbose]')
+        print('Example: python3 main.py "Why is Sam the secret and only hero in lotr?"')
         sys.exit(1)
     
     user_prompt = " ".join(args)
